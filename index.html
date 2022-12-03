@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;800&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;800&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+<title>Muhammed Fuzel</title>
+</head>
+<style>
+    .me{
+       margin-bottom: 25px;
+       margin-left: 35px;
+       width: 230px;
+    }
+input[type=text], select, textarea {
+  width: 130px;
+  display: block;
+  padding: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.705);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ff0202c4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+label{
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+}
+input[type=submit]:hover {
+  background-color: #ff0202;
+}
+</style>
+<body>
+    <nav class="navbar">
+    <div class="links">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+
+<section id="Home">
+    <div class="maintxt">
+  <i><h3 class="sub">Hey,i'am</h3></i>
+   <h1 class="txt">Muhammed Fuzel</h1>
+   <i><h3 class="sub">Web developer & UI UX Designer</h3></i>
+    </div>
+</section>
+
+<section id="about">
+    <div class="abt">
+        <h1 class="abt-txt">
+            About me!
+        </h1>
+    </div>
+   <div class="para">
+        <i><p class="abt-p">
+            Hello,
+I’am Muhammed Fuzel, i’am a web developer based in Ahmedabad,India. Curruntly i’m  studying in 1st year Bachelors of Computer applications.I like to read books about business,philosophy,novels and anime.
+my favourite sport is football.
+        </p></i>
+   </div>
+    
+</section>
+
+<section id="contact">
+
+    <h3 class="cnt-t">
+        Contact me!
+    </h3>
+    <div class="cnt">
+       
+        <div class="me">
+            <form action="/action_page.php" class="frm">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea  id="subject" name="subject" placeholder="Write something.." style="height: 90px;"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    <div class="mail">
+        <h2 class="mail-t">
+        Email:
+        </h2>
+        <h3 class="sup">
+            fuzelxr@gmail.com
+        </h3>
+
+        <h2  style="margin-top: 53px;" class="add">
+            Address: 
+        </h2>
+        <h3 class="sup">
+            Ahmedabad,India
+        </h3>
+     
+        <h2  style="margin-top: 53px;" class="add">
+            My Social Media Handles: 
+        </h2>
+        <a href="instagram.com/fuzelx" class="sup">instagram</a> <br>
+         <a href="#" class="sup">Twitter</a> <br>
+       <a href="#" class="sup">LinkedIn</a>
+       
+
+        
+    </div>
+
+    </div>
+
+
+</section>
+
+
+</body>
+</html>
